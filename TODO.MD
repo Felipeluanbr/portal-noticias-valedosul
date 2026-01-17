@@ -7,11 +7,11 @@ O foco aqui é deixar a estrutura profissional pronta.
 
 [ X ] Criar pasta do projeto e inicializar o Git (git init).
 
-[ ] Instalar a extensão Live Sass Compiler no VS Code.
+[ X ] Instalar a extensão Live Sass Compiler no VS Code.
 
-[ ] Criar o ficheiro index.html base.
+[ x ] Criar o ficheiro index.html base.
 
-[ ] Arquitetura SASS (BEM + Partials):
+[  ] Arquitetura SASS (BEM + Partials):
 
 [ ] Criar estrutura de pastas: abstracts/, base/, components/, layout/.
 
