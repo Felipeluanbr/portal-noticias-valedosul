@@ -21,11 +21,11 @@ O foco aqui é deixar a estrutura profissional pronta.
 
 [ ] Configurar o main.scss para importar todos os parciais.
 
-[ ] Ativar o "Watch Sass" e verificar se o style.css foi gerado.
+[ X ] Ativar o "Watch Sass" e verificar se o style.css foi gerado.
 
-[ ] Documentação Inicial:
+[ X ] Documentação Inicial:
 
-[ ] Criar o README.md com a descrição do projeto (usa aquele modelo que te passei).
+[ X ] Criar o README.md com a descrição do projeto (usa aquele modelo que te passei).
 
 🔵 FASE 2: Estrutura Visual e Layout (Semana 2)
 Aqui o site começa a ter "cara" de portal de notícias.
