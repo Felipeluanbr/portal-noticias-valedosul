@@ -59,6 +59,8 @@ Para manter um histórico de alterações limpo e profissional, utilizamos o pad
 - `docs`: Melhorias na documentação e README.
 - `chore`: Configurações de pastas e tarefas de manutenção.
 
+
+
 ---
 
 ## 🚀 Como Executar o Projeto
