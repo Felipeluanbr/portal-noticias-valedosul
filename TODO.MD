@@ -11,13 +11,13 @@ O foco aqui é deixar a estrutura profissional pronta.
 
 [ x ] Criar o ficheiro index.html base.
 
-[  ] Arquitetura SASS (BEM + Partials):
+[ X ] Arquitetura SASS (BEM + Partials):
 
-[ ] Criar estrutura de pastas: abstracts/, base/, components/, layout/.
+[ X ] Criar estrutura de pastas: abstracts/, base/, components/, layout/.
 
 [ ] Criar _variables.scss (Cores, Fontes, Gaps).
 
-[ ] Criar _reset.scss (Box-sizing, margin 0).
+[ X ] Criar _reset.scss (Box-sizing, margin 0).
 
 [ ] Configurar o main.scss para importar todos os parciais.
 
