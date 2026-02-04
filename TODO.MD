@@ -30,7 +30,7 @@ O foco aqui é deixar a estrutura profissional pronta.
 🔵 FASE 2: Estrutura Visual e Layout (Semana 2)
 Aqui o site começa a ter "cara" de portal de notícias.
 
-[ ] Cabeçalho (Header):
+[ X ] Cabeçalho (Header):
 
 [ ] Criar HTML com metodologia BEM (header-principal).
 
