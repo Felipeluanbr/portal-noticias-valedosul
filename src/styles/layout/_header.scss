@@ -1,0 +1,68 @@
+
+@use '../variables/font';
+@use '../variables/cores';
+
+.header__top-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .header__controls{
+        
+        display: flex;
+        gap: 1em;
+
+        .bi {
+            font-size: 1.5em;
+            cursor: pointer;
+            transition: all 0.3s ease;
+
+            &:hover{
+                color: cores.$color-highlight;
+            }
+        }
+    }
+
+    .header__register{
+        display: flex;
+        gap: 1em;
+
+        button{
+            color: cores.$color-secondary;
+            background-color: cores.$color-primary;
+            border: none;
+            padding: 0.5em;
+            transition: all 0.3s ease ;
+            &:hover{
+                background-color: cores.$color-highlight;
+                cursor: pointer;
+                
+            }
+            
+        }
+
+    }
+}
+
+.header__main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .header__logo{
+        font-family: font.$font-secondary;
+        font-size: font.$font-size-xxl;
+        font-weight: font.$weight-extra-bold;
+        color: cores.$color-primary;
+        text-decoration: none;
+
+
+    }
+}
+
+.header__date-day{
+    font-size: font.$font-size-base;
+    font-weight: font.$weight-bold;
+    
+}
+

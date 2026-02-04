@@ -1,4 +1,20 @@
-@import './base/normalizar';
-@import './base/reset';
-@import './variables/font';
-@import './variables/colors'; 
+@use './base/normaliza';
+@use './base/reset';
+@use './variables/font';
+@use './variables/cores'; 
+@use './layout/header';
+
+body{
+    padding: 4em;
+    font-family: font.$font-primary , font.$font-secondary;
+    
+
+    .line{
+        background-color: cores.$color-primary;
+        height: 0.1em;
+        width: 100%;
+        margin: 0.4em 0
+    }
+}
+
+ 
