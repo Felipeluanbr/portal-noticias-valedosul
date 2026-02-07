@@ -32,15 +32,15 @@ Aqui o site começa a ter "cara" de portal de notícias.
 
 [ X ] Cabeçalho (Header):
 
-[ ] Criar HTML com metodologia BEM (header-principal).
+[ X ] Criar HTML com metodologia BEM (header-principal).
 
-[ ] Estilizar Logo com fonte Serifada.
+[ X ] Estilizar Logo com fonte Serifada.
 
-[ ] Criar menu de navegação responsivo.
+[ X ] Criar menu de navegação responsivo.
 
-[ ] Hero Section (Manchete Principal):
+[ X ] Hero Section (Manchete Principal):
 
-[ ] Criar o bloco de destaque com imagem grande e título de impacto.
+[ X ] Criar o bloco de destaque com imagem grande e título de impacto.
 
 [ ] Grid de Notícias:
 

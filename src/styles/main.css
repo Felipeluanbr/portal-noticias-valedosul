@@ -450,6 +450,27 @@ span {
   color: #5A5A5A;
 }
 
+.emphasi {
+  display: flex;
+  gap: 2em;
+  margin: 2em 0 2em 0;
+  cursor: pointer;
+}
+
+.emphasi__media img {
+  width: 15em;
+}
+
+.emphasi__content h2 {
+  font-size: 1.5rem;
+  font-family: "Newsreader", serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+.emphasi__content h2:hover {
+  text-decoration: underline;
+}
+
 body {
   padding: 4em;
   font-family: "Inter", sans-serif, "Newsreader", serif;
