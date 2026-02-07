@@ -3,10 +3,13 @@
 @use './variables/font';
 @use './variables/cores'; 
 @use './layout/header';
+@use './components/post';
+
 
 body{
     padding: 4em;
     font-family: font.$font-primary , font.$font-secondary;
+    font-size: 16px;
     
 
     .line{
@@ -14,6 +17,11 @@ body{
         height: 0.1em;
         width: 100%;
         margin: 0.4em 0
+    }
+
+    main{
+        width: 92.5em;
+        margin-top: 1.5em;
     }
 }
 

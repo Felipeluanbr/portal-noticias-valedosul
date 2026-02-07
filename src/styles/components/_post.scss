@@ -1,0 +1,39 @@
+@use "../variables/font";
+@use "../variables/cores";
+
+.post {
+  display: flex;
+  margin-top: 4em;
+  justify-content: space-between;
+}
+
+.post__content{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 40%;
+    
+    
+}
+
+.post h2 {
+  font-size: 2.5rem;
+  font-family: font.$font-secondary;
+  font-weight: bold;
+  cursor: pointer;
+}
+.post p {
+  font-size: 1.2rem;
+  font-family: font.$font-primary;
+  font-weight: 500;
+  cursor: pointer;
+  color: cores.$color-text-secondary;
+  margin-bottom: 2rem;
+}
+
+span{
+     font-size: 1.2rem;
+  font-family: font.$font-primary;
+  font-weight: 500;
+  color: cores.$color-text-secondary;
+}

@@ -414,13 +414,54 @@ table {
   font-weight: 700;
 }
 
+.post {
+  display: flex;
+  margin-top: 4em;
+  justify-content: space-between;
+}
+
+.post__content {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  width: 40%;
+}
+
+.post h2 {
+  font-size: 2.5rem;
+  font-family: "Newsreader", serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.post p {
+  font-size: 1.2rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  color: #5A5A5A;
+  margin-bottom: 2rem;
+}
+
+span {
+  font-size: 1.2rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  color: #5A5A5A;
+}
+
 body {
   padding: 4em;
   font-family: "Inter", sans-serif, "Newsreader", serif;
+  font-size: 16px;
 }
 body .line {
   background-color: #000000;
   height: 0.1em;
   width: 100%;
   margin: 0.4em 0;
+}
+body main {
+  width: 92.5em;
+  margin-top: 1.5em;
 }/*# sourceMappingURL=main.css.map */
