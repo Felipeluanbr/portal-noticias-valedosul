@@ -512,6 +512,58 @@ span {
   text-decoration: underline;
 }
 
+.ad-spacer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ads__card {
+  background: #000000;
+  width: 60em;
+  height: 16em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #FFFFFF;
+  justify-content: center;
+}
+
+.ads__card h2 {
+  font-family: "Newsreader", serif;
+  font-size: 1.5em;
+}
+
+.ads__card h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 2.25em;
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+.ads__card h4 {
+  font-family: "Inter", sans-serif;
+  font-size: 1.25em;
+  color: #CE0B24;
+}
+
+button {
+  background: #FFFFFF;
+  color: #000000;
+  border: none;
+  padding: 0.75em 1.5em;
+  font-family: "Inter", sans-serif;
+  font-size: 1em;
+  cursor: pointer;
+  margin-top: 1em;
+  transition: all 0.3s ease;
+}
+button:hover {
+  background: #CE0B24;
+  color: #FFFFFF;
+}
+
 body {
   padding: 4em;
   font-family: "Inter", sans-serif, "Newsreader", serif;
